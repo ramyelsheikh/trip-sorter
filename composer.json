@@ -1,0 +1,16 @@
+{
+    "name": "ramyelsheikh/trip-sorter",
+    "description": "API that lets you sort this kind of list and present back a description of how to complete your journey",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ramy ElSheikh",
+            "email": "ramy.elsheikh@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"TripSorter\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
