@@ -1,5 +1,5 @@
 <?php
-
+namespace PropertyFinder\TripSorter;
 require_once __DIR__ . '/vendor/autoload.php';
 
 use \TripSorter\Editor\Trip as Trip;

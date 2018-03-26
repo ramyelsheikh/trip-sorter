@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PropertyFinder\\' => array($baseDir . '/src'),
+    'TripSorter\\' => array($baseDir . '/src/TripSorter'),
 );

@@ -9,7 +9,7 @@
 namespace TripSorter\Editor;
 
 
-use TripSorter\Cards\CardsSorter;
+use TripSorter\Sorter\CardsSorter;
 use TripSorter\Cards\Common\CardAbstract;
 
 class Trip {

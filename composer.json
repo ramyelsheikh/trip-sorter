@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-      "psr-4": {"TripSorter\\": "src/"}
+      "psr-4": {"TripSorter\\": "src/TripSorter"}
     },
     "minimum-stability": "dev",
     "require": {}

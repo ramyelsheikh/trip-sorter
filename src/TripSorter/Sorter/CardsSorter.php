@@ -6,10 +6,7 @@
  * Time: 8:03 PM
  */
 
-namespace TripSorter\Cards;
-
-
-use TripSorter\Sorter\SorterInterface;
+namespace TripSorter\Sorter;
 
 /*
  *
@@ -17,7 +14,7 @@ use TripSorter\Sorter\SorterInterface;
  *
  * contains Sorting Algorithm
  */
-class CardsSorter implements SorterInterface {
+class CardsSorter {
 
     public static function sort(array $items)
     {
