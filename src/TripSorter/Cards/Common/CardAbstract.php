@@ -56,7 +56,7 @@ abstract class CardAbstract implements CardInterface{
      */
     function setArrivalLocation($value)
     {
-        $this->ArrivalLocation = $value;
+        $this->arrivalLocation = $value;
     }
 
     /**
