@@ -54,27 +54,6 @@ interface CardInterface {
 }
 ```
 
-#### Boarding Cards
-
-The basic interface of boarding cards is the following:
-
-Each Transportation then has its own class & its additional variables and methods.
-
-```php
-interface BoardingCardInterface
-{
-    /**
-     * @return \TripSorter\Destination\DestinationInterface
-     */
-    public function getFrom();
-
-    /**
-     * @return \TripSorter\Destination\DestinationInterface
-     */
-    public function getTo();
-}
-``` 
-
 #### Sorter
 
 The class that sorts an array of cards is `CardsSorter`:
@@ -115,8 +94,6 @@ The class that sorts an array of cards is `CardsSorter`:
         /*
          * It took O(3n) operations
         */
-        
-        
         
 ```
 
