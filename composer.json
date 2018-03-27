@@ -11,6 +11,9 @@
     "autoload": {
       "psr-4": {"TripSorter\\": "src/TripSorter"}
     },
+    "autoload-dev": {
+        "psr-4": {"TripSorter\\": "tests/"}
+    },
     "minimum-stability": "dev",
     "require": {
         "php":"^7.0",
