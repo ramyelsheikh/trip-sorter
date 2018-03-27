@@ -7,7 +7,7 @@
   1. [Cards](#cards)
   2. [Sorter](#sorter)
   3. [Testing](#testing)
-3. [TODO List](#TODO)
+3. [Todo](#Todo)
 
 
 #### Installation
@@ -135,7 +135,7 @@ run the following command from the terminal from your project document root
 ```  
 
 
-#### TODO
+#### Todo
 
 1) Make Restful API End Points to CRUD Trips and Transportations, Saving them in JSON file.
 2) Adding more Tests for unit testing
