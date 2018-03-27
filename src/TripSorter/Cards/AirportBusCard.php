@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: VIP
+ * User: RamyElSheikh
  * Date: 3/26/2018
  * Time: 6:53 PM
  */
@@ -22,6 +22,10 @@ class AirportBusCard extends CardAbstract {
     function __construct($departureLocation, $arrivalLocation, $seatNumber = NULL)
     {
         parent::__construct($departureLocation, $arrivalLocation, $seatNumber);
+
+        /*
+         * No extra fields
+         */
     }
 
     /*

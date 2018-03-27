@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: VIP
+ * User: RamyElSheikh
  * Date: 3/26/2018
  * Time: 7:37 PM
  */
@@ -28,13 +28,11 @@ class TrainCard extends CardAbstract {
      */
     function __construct($departureLocation, $arrivalLocation, $seatNumber = NULL, $trainNumber)
     {
-        /*
-         *  This is the step that creates the inheritance chain,
-         *  so TrainBaseBoardingCard inherits from BoardingCards.
-         */
         parent::__construct($departureLocation, $arrivalLocation, $seatNumber);
 
-
+        /*
+         * Setting the extra fields
+         */
         $this->setTrainNumber($trainNumber);
     }
 
@@ -50,7 +48,7 @@ class TrainCard extends CardAbstract {
 
     /**
      * Get Train Number
-     * @return $this->trainNumber
+     * @return @var trainNumber
      */
     function getTrainNumber()
     {

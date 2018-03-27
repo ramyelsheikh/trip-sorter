@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: VIP
+ * User: RamyElSheikh
  * Date: 3/26/2018
  * Time: 6:21 PM
  */
@@ -28,6 +28,7 @@ abstract class CardAbstract implements CardInterface{
 
     /**
      * Card Constructor
+     * Takes the minimum parameters that are being used in all types of trip steps
      *
      * @param string $departureLocation Departure Location for a trip.
      * @param string $arrivalLocation Arrival Location for a trip.
@@ -69,7 +70,7 @@ abstract class CardAbstract implements CardInterface{
 
     /**
      * Get Departure Location
-     * @return $this->departureLocation
+     * @return @var departureLocation
      */
     function getDepartureLocation()
     {
@@ -78,7 +79,7 @@ abstract class CardAbstract implements CardInterface{
 
     /**
      * Get Arrival Location
-     * @return $this->arrivalLocation
+     * @return @var arrivalLocation
      */
     function getArrivalLocation()
     {
@@ -87,7 +88,7 @@ abstract class CardAbstract implements CardInterface{
 
     /**
      * Get Seat Number
-     * @return $this->seatNumber
+     * @return @var seatNumber
      */
     function getSeatNumber()
     {

@@ -12,9 +12,10 @@ namespace TripSorter\Test;
 use TripSorter\Cards\AirportBusCard;
 use TripSorter\Cards\FlightCard;
 use TripSorter\Cards\TrainCard;
-use TripSorter\TripEditor\Trip;
+use TripSorter\Editor\Trip;
+use PHPUnit\Framework\TestCase;
 
-class TripTester extends \PHPUnit_Framework_TestCase {
+class TripTester extends  TestCase {
     public function test()
     {
         $journey = new  Trip();

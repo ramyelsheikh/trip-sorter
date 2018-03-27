@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: VIP
+ * User: RamyElSheikh
  * Date: 3/26/2018
  * Time: 7:14 PM
  */
@@ -38,6 +38,9 @@ class FlightCard extends CardAbstract{
     {
         parent::__construct($departureLocation, $arrivalLocation, $seatNumber);
 
+        /*
+         * Setting the extra fields
+         */
         $this->setFlightNumber($flightNumber);
         $this->setGateNumber($gateNumber);
         $this->setCounter($counter);
@@ -72,7 +75,7 @@ class FlightCard extends CardAbstract{
 
     /**
      * Get Flight Number
-     * @return $this->flightNumber
+     * @return @var flightNumber
      */
     function getFlightNumber()
     {
@@ -81,7 +84,7 @@ class FlightCard extends CardAbstract{
 
     /**
      * Get Gate Number
-     * @return $this->gateNumber
+     * @return @var gateNumber
      */
     function getGateNumber()
     {
@@ -90,7 +93,7 @@ class FlightCard extends CardAbstract{
 
     /**
      * Get Counter
-     * @return $this->counter
+     * @return @var counter
      */
     function getCounter()
     {

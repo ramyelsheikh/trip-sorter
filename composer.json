@@ -12,5 +12,8 @@
       "psr-4": {"TripSorter\\": "src/TripSorter"}
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php":"^7.0",
+        "phpunit/phpunit": "^7.0"
+    }
 }
