@@ -10,7 +10,7 @@
 3. [Todo](#Todo)
 
 
-#### Installation
+### Installation
 
 To install the TripSorter,
 1. Clone the project in your document root.
@@ -135,7 +135,7 @@ run the following command from the terminal from your project document root
 ```  
 
 
-#### Todo
+### Todo
 
 1) Make Restful API End Points to CRUD Trips and Transportations, Saving them in JSON file.
 2) Adding more Tests for unit testing
