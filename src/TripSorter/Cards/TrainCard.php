@@ -70,7 +70,7 @@ class TrainCard extends CardAbstract {
     {
         return json_encode(
             [
-                'Transportation' => 'Flight',
+                'Transportation' => 'Train',
                 'Departure Location' => $this->getDepartureLocation(),
                 'Arrival Location' => $this->getArrivalLocation(),
                 'Seat Number' => ($this->getSeatNumber()) ? $this->getSeatNumber() : 'No Seat',
